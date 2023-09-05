@@ -128,4 +128,4 @@ DB_PASSWORD=Laravel123!!!
 
 <p align=center><img src=https://github.com/syahidhzblh/deploy-laravel-ec2/blob/dc502b57a94c90d8d44fedd2b8f1f7cd668d5725/assets/img/test-laravel-starter-using-ip.png alt="Open Laravel Starter using IP via http"></p>
 
-## Setting up SSL using Lets Encrypt + Nginx for Laravel Starter
+## Setting up SSL using Lets Encrypt on Nginx
