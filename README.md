@@ -5,7 +5,7 @@ In this section i will show how to deploy Laravel Starter on AWS EC2
 # Laravel Starter (based on Laravel 10.x) from Nasir Khan Saikat
 
 For this project i used Sample App Laravel Starter from Nasir Khan Saikat to Deploy on AWS EC2
-you can find this project on `https://github.com/nasirkhan/laravel-starter.git`
+you can find this project on https://github.com/nasirkhan/laravel-starter.git
 
 # Deployment Step
 
