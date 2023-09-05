@@ -20,6 +20,10 @@ you can find this project on `https://github.com/nasirkhan/laravel-starter.git`
 - Storage : 8 GB
 - Port Allow Needed : 22 (SSH), 80(HTTP), 433(HTTPS)
 
-4. To shorten the time, on this section i use metadata was i created on this Repository.
-5. Click Advanced Details, go to Metadata Section and drop it metadata-laravel config into it.
-6. Review Instance on Summary, made sure all the spec and config already correct. Choose Launch Instance.
+4. Create or use existing keypair for SSH Remote.
+5. For the Network Setting, you can use default VPC or your own VPC.
+6. Create Security Group, for allow Port 22, 80, and 433. On this section i use security group was i already created, i give name `WebServer`
+7. To shorten the time, on this section i use metadata was i created on this Repository.
+8. Click Advanced Details, go to Metadata Section and drop it metadata-laravel config into it.
+9. Review Instance on Summary, made sure all the spec and config already correct. Choose Launch Instance.
+10. After instance succesfully created, check on your instance EC2 dashboard. Make sure instance running and status check passed.
