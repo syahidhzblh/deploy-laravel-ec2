@@ -122,7 +122,7 @@ DB_PASSWORD=Laravel123!!!
 21. Save and Exit 
 22. Create link to sites-enabled using `sudo ln /etc/nginx/sites-available/laravel-server /etc/nginx/sites-enabled` 
 23. Check configuration file nginx `nginx -t` 
-24. Unlink default nginx configuration `unlink defaul` 
+24. Unlink default nginx configuration `unlink default` 
 25. Reload nginx `sudo systemctl reload nginx` 
 26. After successfully, let's try open Laravel Starter via Public IP was already set (via HTTP Protocol)
 
