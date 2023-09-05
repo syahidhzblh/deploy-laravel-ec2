@@ -16,6 +16,7 @@ server {
             include fastcgi_params;
      }
 }
+#Foward Port 8000 to 80 using Proxy Pass Nginx
 server{
         listen 80;
         
