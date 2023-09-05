@@ -53,3 +53,5 @@ service php8.1-fpm start
 7. Set Package Repo for Install NodeJS Version 16.x
 8. Start Nginx Service
 9. Start PHP 8.1 FPM Service
+
+## Installation Laravel
