@@ -54,4 +54,20 @@ service php8.1-fpm start
 8. Start Nginx Service
 9. Start PHP 8.1 FPM Service
 
+## Verify Package
+
+1. Connect to instance using SSH
+
+```bash
+ssh -i (YOUR_KEY_PAIR) ubuntu@PUBLIC_IP_AWS_EC2
+```
+
+2. If you rejected to connect instance using SSH, try to `chmod 400 (YOUR_KEY_PAIR)`. And then reconnect
+3. After you successfully connect instance using SSH, made sure all package successfully installed.
+4. For verify package you can use `(PACKAGE_NAME --version)` example `nginx --version`
+5. Check Nginx already running using `sudo systemctl status nginx`
+6. Try to Access Website via Public IP Instance AWS EC2.
+7. If success, it will return like this.
+<p align=center><img src="https://github.com/syahidhzblh/deploy-laravel-ec2/blob/4ffa898da99d2b5311b790d8692afff8da8a8a67/assets/img/nginx-test.png" alt="Nginx Test"></p>
+
 ## Installation Laravel
