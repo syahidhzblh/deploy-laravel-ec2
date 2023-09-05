@@ -101,7 +101,8 @@ CREATE USER 'laravel_user'@'localhost' IDENTIFIED BY 'Laravel123!!!';
 GRANT ALL PRIVILEGES ON laravel_starter.* TO 'laravel_user'@'localhost' IDENTIFIED BY 'Laravel123!!!';
 FLUSH PRIVILEGES;
 ```
-11. Test login mysql using laravel user `sudo msyql -u laravel_user -p` 12. Try to use DB laravel_starter and show tables
+11. Test login mysql using laravel user `sudo msyql -u laravel_user -p` 
+12. Try to use DB laravel_starter and show tables
 
 ```sql
 USE DATABASE laravel_starter;
