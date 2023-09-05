@@ -119,15 +119,20 @@ DB_PASSWORD=Laravel123!!!
 ```
 16. Run `sudo php artisan migrate --seed` 
 17. Run `sudo php artisan key:generate` 
-18. Change Path Folder to `/etc/nginx/sites-available` 
-19. Create new file config nginx `sudo nano laravel-server` 
-20. Copy configuration on file sites-enabled-laravel on this repo and then paste it 
-21. Save and Exit 
-22. Create link to sites-enabled using `sudo ln /etc/nginx/sites-available/laravel-server /etc/nginx/sites-enabled` 
-23. Check configuration file nginx `nginx -t` 
-24. Unlink default nginx configuration `unlink default` 
-25. Reload nginx `sudo systemctl reload nginx` 
-26. After successfully, let's try open Laravel Starter via Public IP was already set (via HTTP Protocol)
+18. Set Required File Permission
+```bash
+sudo chown -R www-data:www-data /var/www/html/laravel-starter/
+sudo chmod -R 755 /var/www/html/laravel-starter
+```
+19. Change Path Folder to `/etc/nginx/sites-available` 
+20. Create new file config nginx `sudo nano laravel-server` 
+21. Copy configuration on file sites-enabled-laravel on this repo and then paste it 
+22. Save and Exit 
+23. Create link to sites-enabled using `sudo ln /etc/nginx/sites-available/laravel-server /etc/nginx/sites-enabled` 
+24. Check configuration file nginx `nginx -t` 
+25. Unlink default nginx configuration `unlink default` 
+26. Reload nginx `sudo systemctl reload nginx` 
+27. After successfully, let's try open Laravel Starter via Public IP was already set (via HTTP Protocol)
 
 <p align=center><img src=https://github.com/syahidhzblh/deploy-laravel-ec2/blob/dc502b57a94c90d8d44fedd2b8f1f7cd668d5725/assets/img/test-laravel-starter-using-ip.png alt="Open Laravel Starter using IP via http"></p>
 
