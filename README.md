@@ -101,14 +101,12 @@ CREATE USER 'laravel_user'@'localhost' IDENTIFIED BY 'Laravel123!!!';
 GRANT ALL PRIVILEGES ON laravel_starter.* TO 'laravel_user'@'localhost' IDENTIFIED BY 'Laravel123!!!';
 FLUSH PRIVILEGES;
 ```
-Exit 
 11. Test login mysql using laravel user `sudo msyql -u laravel_user -p` 12. Try to use DB laravel_starter and show tables
 
 ```sql
 USE DATABASE laravel_starter;
 SHOW TABLES;
-```
-Exit 
+``` 
 13. Change .env config for DB Connection 14. Run `sudo nano .env` 15. Edit following this
 
 ```
@@ -116,7 +114,6 @@ APP_URL=YOUR_IP_PUBLIC_AWS
 DB_USER=laravel_user
 DB_PASSWORD=Laravel123!!!
 ```
-Save and Exit 
 16. Run `sudo php artisan migrate --seed` 
 17. Run `sudo php artisan key:generate` 
 18. Change Path Folder to `/etc/nginx/sites-available` 
