@@ -44,7 +44,7 @@ systemctl start nginx
 service php8.1-fpm start
 ```
 
-1. Update and Upgrade packge linux
+1. Update and Upgrade package linux
 2. Set Timezone to your Region (You can replace with your region)
 3. Install Nginx
 4. Install Git
