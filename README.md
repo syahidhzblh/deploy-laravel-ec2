@@ -108,7 +108,9 @@ FLUSH PRIVILEGES;
 USE DATABASE laravel_starter;
 SHOW TABLES;
 ``` 
-13. Change .env config for DB Connection 14. Run `sudo nano .env` 15. Edit following this
+13. Change .env config for DB Connection 
+14. Run `sudo nano .env` 
+15. Edit following this
 
 ```
 APP_URL=YOUR_IP_PUBLIC_AWS
