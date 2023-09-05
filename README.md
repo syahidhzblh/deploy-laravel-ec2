@@ -124,6 +124,8 @@ DB_PASSWORD=Laravel123!!!
 23. Check configuration file nginx `nginx -t` 
 24. Unlink default nginx configuration `unlink defaul` 
 25. Reload nginx `sudo systemctl reload nginx` 
-26. After successfully, let's try Laravel Starter via Public IP was already set (via HTTP Protocol)
+26. After successfully, let's try open Laravel Starter via Public IP was already set (via HTTP Protocol)
 
 <p align=center><img src=https://github.com/syahidhzblh/deploy-laravel-ec2/blob/dc502b57a94c90d8d44fedd2b8f1f7cd668d5725/assets/img/test-laravel-starter-using-ip.png alt="Open Laravel Starter using IP via http"></p>
+
+## Setting up SSL using Lets Encrypt + Nginx for Laravel Starter
