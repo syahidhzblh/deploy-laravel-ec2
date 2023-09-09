@@ -1,3 +1,5 @@
+<p align=center><img src=https://github.com/syahidhzblh/deploy-laravel-ec2/blob/70ced8f5c73c6195189ebc2e9d39d8fd9b111f99/assets/img/aws.jpg alt="Larevel on AWS EC2"></p>
+
 # Guide to Deploy Laravel Starter on AWS EC2
 
 In this section i will show how to deploy Laravel Starter on AWS EC2
